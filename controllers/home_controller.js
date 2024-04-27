@@ -9,7 +9,7 @@ module.exports.home = function (req, res) {
       return;
     }
     return res.render('home', {
-      title: "Doo Itt!",
+      title: "todo!",
       todo_list: task
     });
   });
