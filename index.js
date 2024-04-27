@@ -8,7 +8,6 @@ const app = express();
 app.set('view engine', 'ejs');
 app.set('views', './views');
 
-// Serve static files from the assets directory
 app.use(express.static('./assets'));
 
 // Middleware to parse URL-encoded bodies
